@@ -5592,3 +5592,30 @@
 2025-03-01 20:57:38.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
 2025-03-01 21:12:18.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
 2025-03-01 21:12:18.9|Info|ConsoleApp|Exiting main.
+2025-03-01 23:46:40.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr - Version 4.0.13.2932
+2025-03-01 23:46:41.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-03-01 23:46:41.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-03-01 23:46:41.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-03-01 23:46:42.0|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-03-01 23:46:42.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-03-01 23:46:42.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-03-01 23:46:42.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-03-01 23:46:42.3|Info|DatabaseEngineVersionCheck|SQLite 3.48.0
+2025-03-01 23:46:42.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.107642s
+2025-03-01 23:46:42.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-03-01 23:46:42.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1266932s
+2025-03-01 23:46:42.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-03-01 23:46:42.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-03-01 23:46:42.5|Info|DatabaseEngineVersionCheck|SQLite 3.48.0
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0308666s
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-03-01 23:46:42.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0360046s
+2025-03-01 23:46:43.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-03-01 23:46:43.9|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-03-01 23:47:11.0|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-01 23:47:11.1|Info|ConsoleApp|Exiting main.

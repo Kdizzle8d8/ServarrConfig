@@ -103,33 +103,12 @@ services:
       movies:
         ipv4_address: 10.10.18.9
     restart: always
-
-  nvrai-infra-prometheus:
-    image: prom/prometheus:latest
-    ports:
-      - "9090:9090"
-    networks:
-      movies:
-        ipv4_address: 10.10.18.10
-    restart: always
-
-  nvrai-infra-grafana:
-    image: grafana/grafana:latest
-    ports:
-      - "3000:3000"
-    environment:
-      - GF_SECURITY_ADMIN_PASSWORD=asdfasdf
-    networks:
-      movies:
-        ipv4_address: 10.10.18.11
-    restart: always
-
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
     environment:
-     - LOG_LEVEL=debug
-     - TZ=Asia/Tashkent
+      - LOG_LEVEL=debug
+      - TZ=Asia/Tashkent
     ports:
       - 5055:5055
     volumes:
@@ -137,7 +116,7 @@ services:
     restart: always
     networks:
       movies:
-        ipv4_address : 10.10.18.12
+        ipv4_address: 10.10.18.12
 
 networks:
   movies:

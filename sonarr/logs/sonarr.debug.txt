@@ -3268,3 +3268,132 @@
 2025-03-01 21:09:38.3|Debug|ImportListSyncService|No import lists with automatic add enabled
 2025-03-01 21:12:18.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
 2025-03-01 21:12:18.9|Info|ConsoleApp|Exiting main.
+2025-03-01 23:46:41.9|Debug|ProcessProvider|Found 0 processes with the name: Sonarr.Console
+2025-03-01 23:46:41.9|Debug|ProcessProvider|Found 1 processes with the name: Sonarr
+2025-03-01 23:46:41.9|Debug|ProcessProvider| - [142] Sonarr
+2025-03-01 23:46:42.0|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-03-01 23:46:42.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-03-01 23:46:42.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-03-01 23:46:42.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-03-01 23:46:42.3|Info|DatabaseEngineVersionCheck|SQLite 3.48.0
+2025-03-01 23:46:42.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.107642s
+2025-03-01 23:46:42.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-03-01 23:46:42.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1266932s
+2025-03-01 23:46:42.5|Debug|MigrationController|Took: 00:00:00.4959631
+2025-03-01 23:46:42.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-03-01 23:46:42.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-03-01 23:46:42.5|Info|DatabaseEngineVersionCheck|SQLite 3.48.0
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0308666s
+2025-03-01 23:46:42.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-03-01 23:46:42.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0360046s
+2025-03-01 23:46:42.6|Debug|MigrationController|Took: 00:00:00.1015140
+2025-03-01 23:46:43.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-03-01 23:46:43.4|Debug|QualityDefinitionService|Setting up default quality config
+2025-03-01 23:46:43.5|Debug|NotificationFactory|Initializing Providers. Count 25
+2025-03-01 23:46:43.7|Debug|IndexerFactory|Initializing Providers. Count 10
+2025-03-01 23:46:43.7|Debug|ImportListFactory|Initializing Providers. Count 11
+2025-03-01 23:46:43.7|Debug|MetadataFactory|Initializing Providers. Count 5
+2025-03-01 23:46:43.8|Debug|DownloadClientFactory|Initializing Providers. Count 18
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-03-01 23:46:43.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
+2025-03-01 23:46:43.9|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-03-01 23:46:44.2|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-03-01 23:46:44.4|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:44.4|Debug|DownloadClientCheck|Unable to communicate with rdtclient
+
+[v4.0.13.2932] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 445
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 361
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 85
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 60
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 220
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/DownloadClientCheck.cs:line 40
+
+2025-03-01 23:46:44.5|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:44.5|Debug|DownloadClientRemovesCompletedDownloadsCheck|Unable to communicate with rdtclient
+
+[v4.0.13.2932] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 445
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 361
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 85
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 60
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 49
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 374
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientRemovesCompletedDownloadsCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/DownloadClientRemovesCompletedDownloadsCheck.cs:line 42
+
+2025-03-01 23:46:44.5|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:44.5|Debug|DownloadClientRootFolderCheck|Unable to communicate with rdtclient
+
+[v4.0.13.2932] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 445
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 361
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 85
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 60
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 49
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 374
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientRootFolderCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/DownloadClientRootFolderCheck.cs:line 50
+
+2025-03-01 23:46:44.6|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:44.6|Debug|DownloadClientSortingCheck|Unable to communicate with rdtclient
+
+[v4.0.13.2932] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 445
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 361
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 85
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 60
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 49
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 374
+   at NzbDrone.Core.HealthCheck.Checks.DownloadClientSortingCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/DownloadClientSortingCheck.cs:line 43
+
+2025-03-01 23:46:44.6|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer EZTV (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer kickasstorrents.to (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 03/02/2025 01:25:32 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer The Pirate Bay (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer TheRARBG (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.4|Debug|IndexerFactory|Temporarily ignoring indexer RuTracker.org (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.7|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.7|Debug|IndexerFactory|Temporarily ignoring indexer EZTV (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.8|Debug|IndexerFactory|Temporarily ignoring indexer kickasstorrents.to (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.8|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 03/02/2025 01:25:32 due to recent failures.
+2025-03-01 23:46:45.8|Debug|IndexerFactory|Temporarily ignoring indexer The Pirate Bay (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.8|Debug|IndexerFactory|Temporarily ignoring indexer TheRARBG (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.8|Debug|IndexerFactory|Temporarily ignoring indexer RuTracker.org (Prowlarr) till 03/02/2025 01:27:12 due to recent failures.
+2025-03-01 23:46:45.9|Debug|QBittorrentProxyV2|qbitTorrent authentication failed.
+2025-03-01 23:46:45.9|Debug|RemotePathMappingCheck|Unable to communicate with rdtclient
+
+[v4.0.13.2932] NzbDrone.Core.Download.Clients.DownloadClientAuthenticationException: Failed to authenticate with qBittorrent.
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AuthenticateClient(HttpRequestBuilder requestBuilder, QBittorrentSettings settings, Boolean reauthenticate) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 445
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 361
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 85
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 98
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 77
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 60
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.get_Proxy() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 49
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetStatus() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 374
+   at NzbDrone.Core.HealthCheck.Checks.RemotePathMappingCheck.Check() in ./Sonarr.Core/HealthCheck/Checks/RemotePathMappingCheck.cs:line 63
+
+2025-03-01 23:47:11.0|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-03-01 23:47:11.1|Info|ConsoleApp|Exiting main.
