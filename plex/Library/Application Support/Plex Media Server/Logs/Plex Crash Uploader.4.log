@@ -1,0 +1,4 @@
+Feb 11, 2025 04:10:24.477 [140668796758840] INFO - Crash Uploader - Platform: Linux ServerUUID: 5be0d1540df66bce7be1135a1eb86668efa8d845 UserId: kyle@kyle.stream Version: 1.41.3.9314-a0bfb8370
+Feb 11, 2025 04:10:24.477 [140668796758840] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.41.3.9314-a0bfb8370
+Feb 11, 2025 04:10:24.477 [140668796758840] INFO - Post-processed minidump directory: /run/plex-temp
+Feb 11, 2025 04:10:24.478 [140668824676360] INFO - Crash Uploader - Processing Complete.

@@ -1,0 +1,75 @@
+Feb 11, 2025 04:15:28.459 [139772099951360] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Feb 11, 2025 04:15:28.460 [139772099951360] INFO - Linux version: 6.1.0-31-amd64, language: en-US
+Feb 11, 2025 04:15:28.460 [139772099951360] INFO - Processor: 32-core Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Feb 11, 2025 04:15:28.460 [139772099951360] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 3,48,10,4,43,36,22,38,52,33 --log-file-suffix  Analysis
+Feb 11, 2025 04:15:28.460 [139772100452096] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 04:15:28.640 [139772100452096] DEBUG - Analyzing media parts for item 3 (The Magic Xylophone): 1
+Feb 11, 2025 04:15:28.640 [139772100452096] DEBUG - [ID 1] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E01 - Magic Xylophone (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.640 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E01 - Magic Xylophone (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.641 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E01 - Magic Xylophone (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.641 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.641 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E01 - Magic Xylophone (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E01 - Magic Xylophone (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.641 [139772100452096] ERROR - Failed to successfully analyze part 1.
+Feb 11, 2025 04:15:28.651 [139772100452096] DEBUG - Analyzing media parts for item 48 (Chickenrat): 46
+Feb 11, 2025 04:15:28.651 [139772100452096] DEBUG - [ID 46] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E46 - Chickenrat (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.651 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E46 - Chickenrat (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.651 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E46 - Chickenrat (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.651 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.651 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E46 - Chickenrat (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E46 - Chickenrat (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.651 [139772100452096] ERROR - Failed to successfully analyze part 46.
+Feb 11, 2025 04:15:28.659 [139772100452096] DEBUG - Analyzing media parts for item 10 (Fruitbat): 8
+Feb 11, 2025 04:15:28.659 [139772100452096] DEBUG - [ID 8] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E08 - Fruitbat (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.659 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E08 - Fruitbat (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.660 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E08 - Fruitbat (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.660 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.660 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E08 - Fruitbat (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E08 - Fruitbat (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.660 [139772100452096] ERROR - Failed to successfully analyze part 8.
+Feb 11, 2025 04:15:28.668 [139772100452096] DEBUG - Analyzing media parts for item 4 (Hospital): 2
+Feb 11, 2025 04:15:28.668 [139772100452096] DEBUG - [ID 2] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E02 - Hospital (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.668 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E02 - Hospital (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.668 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E02 - Hospital (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.668 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.668 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E02 - Hospital (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E02 - Hospital (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.668 [139772100452096] ERROR - Failed to successfully analyze part 2.
+Feb 11, 2025 04:15:28.676 [139772100452096] DEBUG - Analyzing media parts for item 43 (Mums and Dads): 41
+Feb 11, 2025 04:15:28.676 [139772100452096] DEBUG - [ID 41] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E41 - Mums and Dads (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.676 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E41 - Mums and Dads (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.676 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E41 - Mums and Dads (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.676 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.676 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E41 - Mums and Dads (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E41 - Mums and Dads (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.676 [139772100452096] ERROR - Failed to successfully analyze part 41.
+Feb 11, 2025 04:15:28.684 [139772100452096] DEBUG - Analyzing media parts for item 36 (The Dump): 34
+Feb 11, 2025 04:15:28.684 [139772100452096] DEBUG - [ID 34] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E34 - The Dump (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.684 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E34 - The Dump (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.684 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E34 - The Dump (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.684 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.684 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E34 - The Dump (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E34 - The Dump (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.684 [139772100452096] ERROR - Failed to successfully analyze part 34.
+Feb 11, 2025 04:15:28.693 [139772100452096] DEBUG - Analyzing media parts for item 22 (Markets): 20
+Feb 11, 2025 04:15:28.693 [139772100452096] DEBUG - [ID 20] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E20 - Markets (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.693 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E20 - Markets (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.693 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E20 - Markets (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.693 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.693 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E20 - Markets (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E20 - Markets (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.693 [139772100452096] ERROR - Failed to successfully analyze part 20.
+Feb 11, 2025 04:15:28.701 [139772100452096] DEBUG - Analyzing media parts for item 38 (Backpackers): 36
+Feb 11, 2025 04:15:28.701 [139772100452096] DEBUG - [ID 36] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E36 - Backpackers (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.701 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E36 - Backpackers (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.701 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E36 - Backpackers (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.701 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.701 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E36 - Backpackers (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E36 - Backpackers (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.701 [139772100452096] ERROR - Failed to successfully analyze part 36.
+Feb 11, 2025 04:15:28.710 [139772100452096] DEBUG - Analyzing media parts for item 52 (Shaun): 50
+Feb 11, 2025 04:15:28.710 [139772100452096] DEBUG - [ID 50] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E50 - Shaun (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.710 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E50 - Shaun (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.710 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E50 - Shaun (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.710 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.710 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E50 - Shaun (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E50 - Shaun (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.710 [139772100452096] ERROR - Failed to successfully analyze part 50.
+Feb 11, 2025 04:15:28.719 [139772100452096] DEBUG - Analyzing media parts for item 33 (Work): 31
+Feb 11, 2025 04:15:28.719 [139772100452096] DEBUG - [ID 31] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E31 - Work (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:28.719 [139772100452096] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E31 - Work (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:28.720 [139772100452096] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E31 - Work (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:28.720 [139772100452096] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:28.720 [139772100452096] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E31 - Work (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E31 - Work (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:28.720 [139772100452096] ERROR - Failed to successfully analyze part 31.

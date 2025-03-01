@@ -1,0 +1,5 @@
+Feb 11, 2025 17:30:54.393 [140667243440952] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1739288124 Duration: 6929 UserId: kyle@kyle.stream Version: 1.41.3.9314-a0bfb8370
+Feb 11, 2025 17:30:54.395 [140667271358472] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Feb 11, 2025 17:30:54.550 [140667243195192] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.2s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Feb 11, 2025 17:30:54.550 [140667271358472] INFO - Successfully reported session health
+Feb 11, 2025 17:30:54.550 [140667271358472] INFO - Crash Uploader - Processing Complete.

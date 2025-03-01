@@ -1,0 +1,76 @@
+Feb 11, 2025 04:15:29.580 [140533136034560] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Feb 11, 2025 04:15:29.580 [140533136034560] INFO - Linux version: 6.1.0-31-amd64, language: en-US
+Feb 11, 2025 04:15:29.581 [140533136034560] INFO - Processor: 32-core Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Feb 11, 2025 04:15:29.581 [140533136034560] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 41,18,58,13,12,14,46,62,63,60 --log-file-suffix  Analysis
+Feb 11, 2025 04:15:29.580 [140533136535296] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 04:15:29.745 [140533136535296] DEBUG - Analyzing media parts for item 41 (The Sleepover): 39
+Feb 11, 2025 04:15:29.745 [140533136535296] DEBUG - [ID 39] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E39 - The Sleepover (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.745 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E39 - The Sleepover (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.745 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E39 - The Sleepover (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.745 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.745 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E39 - The Sleepover (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E39 - The Sleepover (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.745 [140533136535296] ERROR - Failed to successfully analyze part 39.
+Feb 11, 2025 04:15:29.759 [140533136535296] DEBUG - Analyzing media parts for item 18 (Yoga Ball): 16
+Feb 11, 2025 04:15:29.759 [140533136535296] DEBUG - [ID 16] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E16 - Yoga Ball (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.759 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E16 - Yoga Ball (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.759 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E16 - Yoga Ball (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.759 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.759 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E16 - Yoga Ball (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E16 - Yoga Ball (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.759 [140533136535296] ERROR - Failed to successfully analyze part 16.
+Feb 11, 2025 04:15:29.776 [140533136535296] DEBUG - Analyzing media parts for item 58 (HERE GOES NOTHING): 54
+Feb 11, 2025 04:15:29.777 [140533136535296] DEBUG - [ID 54] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E02.Here.Goes.Nothing.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.777 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E02.Here.Goes.Nothing.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.777 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E02.Here.Goes.Nothing.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.777 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.777 [140533136535296] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E02.Here.Goes.Nothing.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E02.Here.Goes.Nothing.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.777 [140533136535296] ERROR - Failed to successfully analyze part 54.
+Feb 11, 2025 04:15:29.796 [140533136535296] DEBUG - Analyzing media parts for item 13 (Bike): 11
+Feb 11, 2025 04:15:29.796 [140533136535296] DEBUG - [ID 11] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E11 - Bike (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.796 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E11 - Bike (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.796 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E11 - Bike (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.796 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.796 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E11 - Bike (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E11 - Bike (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.797 [140533136535296] ERROR - Failed to successfully analyze part 11.
+Feb 11, 2025 04:15:29.810 [140533136535296] DEBUG - Analyzing media parts for item 12 (Hotel): 10
+Feb 11, 2025 04:15:29.810 [140533136535296] DEBUG - [ID 10] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E10 - Hotel (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.810 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E10 - Hotel (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.810 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E10 - Hotel (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.810 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.810 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E10 - Hotel (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E10 - Hotel (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.810 [140533136535296] ERROR - Failed to successfully analyze part 10.
+Feb 11, 2025 04:15:29.823 [140533136535296] DEBUG - Analyzing media parts for item 14 (Bob Bilby): 12
+Feb 11, 2025 04:15:29.824 [140533136535296] DEBUG - [ID 12] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E12 - Bob Bilby (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.824 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E12 - Bob Bilby (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.824 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E12 - Bob Bilby (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.824 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.824 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E12 - Bob Bilby (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E12 - Bob Bilby (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.824 [140533136535296] ERROR - Failed to successfully analyze part 12.
+Feb 11, 2025 04:15:29.837 [140533136535296] DEBUG - Analyzing media parts for item 46 (Mount Mumandad): 44
+Feb 11, 2025 04:15:29.837 [140533136535296] DEBUG - [ID 44] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E44 - Mount Mumandad (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.837 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E44 - Mount Mumandad (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.837 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E44 - Mount Mumandad (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.837 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.837 [140533136535296] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E44 - Mount Mumandad (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E44 - Mount Mumandad (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.837 [140533136535296] ERROR - Failed to successfully analyze part 44.
+Feb 11, 2025 04:15:29.855 [140533136535296] DEBUG - Analyzing media parts for item 62 (YOU LOOK KINDA DEAD): 58
+Feb 11, 2025 04:15:29.855 [140533136535296] DEBUG - [ID 58] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E06.You.Look.Kinda.Dead.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.855 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E06.You.Look.Kinda.Dead.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.855 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E06.You.Look.Kinda.Dead.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.855 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.855 [140533136535296] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E06.You.Look.Kinda.Dead.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E06.You.Look.Kinda.Dead.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.855 [140533136535296] ERROR - Failed to successfully analyze part 58.
+Feb 11, 2025 04:15:29.879 [140533136535296] DEBUG - Analyzing media parts for item 63 (WE NEED TO TALK): 59
+Feb 11, 2025 04:15:29.879 [140533136535296] DEBUG - [ID 59] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E07.We.Need.To.Talk.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.879 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E07.We.Need.To.Talk.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.879 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E07.We.Need.To.Talk.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.879 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.879 [140533136535296] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E07.We.Need.To.Talk.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E07.We.Need.To.Talk.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.879 [140533136535296] ERROR - Failed to successfully analyze part 59.
+Feb 11, 2025 04:15:29.892 [140533136535296] DEBUG - Doing expensive tags write for 'WE NEED TO TALK' because something changed.
+Feb 11, 2025 04:15:29.912 [140533136535296] DEBUG - Analyzing media parts for item 60 (NEIL ARMSTRONG, EAT YOUR HEART OUT): 56
+Feb 11, 2025 04:15:29.912 [140533136535296] DEBUG - [ID 56] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E04.Neil.Armstrong.Eat.Your.Heart.Out.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.912 [140533136535296] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E04.Neil.Armstrong.Eat.Your.Heart.Out.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.912 [140533136535296] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E04.Neil.Armstrong.Eat.Your.Heart.Out.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.912 [140533136535296] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.912 [140533136535296] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E04.Neil.Armstrong.Eat.Your.Heart.Out.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E04.Neil.Armstrong.Eat.Your.Heart.Out.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.912 [140533136535296] ERROR - Failed to successfully analyze part 56.

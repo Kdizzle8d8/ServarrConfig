@@ -1,0 +1,144 @@
+---
+services:
+  prowlarr:
+    image: linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ./prowlarr:/config
+    ports:
+      - 9696:9696
+    networks:
+      - movies
+    restart: always
+
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ./sonarr:/config
+      - /storage/tvseries:/tv
+      - /storage/downloads:/downloads
+    ports:
+      - 8989:8989
+    networks:
+      - movies
+    restart: always
+
+  rdtclient:
+    image: rogerfar/rdtclient
+    container_name: rdtclient
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Chicago
+    volumes:
+      - /storage/downloads:/downloads
+      - /storage/rdtclient:/data/db
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+    ports:
+      - 6500:6500
+    networks:
+      - movies
+    restart: always
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - LOG_HTML=${LOG_HTML:-false}
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+      - TZ=America/Chicago
+    ports:
+      - 8191:8191
+    networks:
+      - movies
+    restart: always
+
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - JELLYFIN_PublishedServerUrl=http://192.168.0.5 #optional
+    volumes:
+      - ./jellyfin:/config
+      - /storage/tvseries:/data/tvshows
+      - /storage/movies:/data/movies
+    ports:
+      - 8096:8096
+    networks:
+      movies:
+        ipv4_address: 10.10.18.8
+
+    restart: always
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ./radarr:/config
+      - /storage/movies:/movies #optional
+      - /storage/downloads:/downloads #optional
+    ports:
+      - 7878:7878
+    networks:
+      movies:
+        ipv4_address: 10.10.18.9
+    restart: always
+
+  nvrai-infra-prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    networks:
+      movies:
+        ipv4_address: 10.10.18.10
+    restart: always
+
+  nvrai-infra-grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=asdfasdf
+    networks:
+      movies:
+        ipv4_address: 10.10.18.11
+    restart: always
+
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
+    environment:
+     - LOG_LEVEL=debug
+     - TZ=Asia/Tashkent
+    ports:
+      - 5055:5055
+    volumes:
+      - /path/to/appdata/config:/app/config
+    restart: always
+    networks:
+      movies:
+        ipv4_address : 10.10.18.12
+
+networks:
+  movies:
+    external: true

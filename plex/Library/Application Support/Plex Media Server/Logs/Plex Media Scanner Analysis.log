@@ -1,0 +1,61 @@
+Feb 11, 2025 04:15:30.021 [140381154454272] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Feb 11, 2025 04:15:30.022 [140381154454272] INFO - Linux version: 6.1.0-31-amd64, language: en-US
+Feb 11, 2025 04:15:30.022 [140381154454272] INFO - Processor: 32-core Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Feb 11, 2025 04:15:30.022 [140381154454272] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 49,23,16,51,42,35,17,24 --log-file-suffix  Analysis
+Feb 11, 2025 04:15:30.022 [140381154955008] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 04:15:30.168 [140381154955008] DEBUG - Analyzing media parts for item 49 (Neighbours): 47
+Feb 11, 2025 04:15:30.168 [140381154955008] DEBUG - [ID 47] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E47 - Neighbours (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.168 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E47 - Neighbours (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.168 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E47 - Neighbours (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.168 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.168 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E47 - Neighbours (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E47 - Neighbours (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.168 [140381154955008] ERROR - Failed to successfully analyze part 47.
+Feb 11, 2025 04:15:30.176 [140381154955008] DEBUG - Analyzing media parts for item 23 (Blue Mountains): 21
+Feb 11, 2025 04:15:30.176 [140381154955008] DEBUG - [ID 21] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E21 - Blue Mountains (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.176 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E21 - Blue Mountains (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.176 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E21 - Blue Mountains (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.176 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.176 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E21 - Blue Mountains (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E21 - Blue Mountains (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.176 [140381154955008] ERROR - Failed to successfully analyze part 21.
+Feb 11, 2025 04:15:30.183 [140381154955008] DEBUG - Analyzing media parts for item 16 (Takeaway): 14
+Feb 11, 2025 04:15:30.183 [140381154955008] DEBUG - [ID 14] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E14 - Takeaway (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.183 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E14 - Takeaway (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.183 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E14 - Takeaway (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.183 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.183 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E14 - Takeaway (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E14 - Takeaway (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.183 [140381154955008] ERROR - Failed to successfully analyze part 14.
+Feb 11, 2025 04:15:30.190 [140381154955008] DEBUG - Analyzing media parts for item 51 (Asparagus): 49
+Feb 11, 2025 04:15:30.190 [140381154955008] DEBUG - [ID 49] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E49 - Asparagus (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.190 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E49 - Asparagus (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.190 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E49 - Asparagus (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.190 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.191 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E49 - Asparagus (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E49 - Asparagus (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.191 [140381154955008] ERROR - Failed to successfully analyze part 49.
+Feb 11, 2025 04:15:30.198 [140381154955008] DEBUG - Analyzing media parts for item 42 (Early Baby): 40
+Feb 11, 2025 04:15:30.198 [140381154955008] DEBUG - [ID 40] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E40 - Early Baby (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.198 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E40 - Early Baby (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.198 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E40 - Early Baby (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.198 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.198 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E40 - Early Baby (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E40 - Early Baby (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.198 [140381154955008] ERROR - Failed to successfully analyze part 40.
+Feb 11, 2025 04:15:30.205 [140381154955008] DEBUG - Analyzing media parts for item 35 (Trampoline): 33
+Feb 11, 2025 04:15:30.205 [140381154955008] DEBUG - [ID 33] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E33 - Trampoline (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.205 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E33 - Trampoline (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.205 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E33 - Trampoline (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.205 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.205 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E33 - Trampoline (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E33 - Trampoline (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.205 [140381154955008] ERROR - Failed to successfully analyze part 33.
+Feb 11, 2025 04:15:30.219 [140381154955008] DEBUG - Analyzing media parts for item 17 (Butterflies): 15
+Feb 11, 2025 04:15:30.219 [140381154955008] DEBUG - [ID 15] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E15 - Butterflies (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.219 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E15 - Butterflies (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.219 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E15 - Butterflies (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.219 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.219 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E15 - Butterflies (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E15 - Butterflies (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.219 [140381154955008] ERROR - Failed to successfully analyze part 15.
+Feb 11, 2025 04:15:30.232 [140381154955008] DEBUG - Analyzing media parts for item 24 (The Pool): 22
+Feb 11, 2025 04:15:30.232 [140381154955008] DEBUG - [ID 22] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E22 - The Pool (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:30.232 [140381154955008] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E22 - The Pool (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:30.232 [140381154955008] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E22 - The Pool (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:30.232 [140381154955008] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:30.232 [140381154955008] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E22 - The Pool (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E22 - The Pool (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:30.232 [140381154955008] ERROR - Failed to successfully analyze part 22.

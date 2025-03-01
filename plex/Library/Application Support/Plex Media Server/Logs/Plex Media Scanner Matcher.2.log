@@ -1,0 +1,7 @@
+Feb 10, 2025 16:18:36.811 [281473222688248] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Feb 10, 2025 16:18:36.812 [281473222688248] INFO - Linux version: 6.10.14-linuxkit, language: en-US
+Feb 10, 2025 16:18:36.812 [281473222688248] INFO - Processor: 8-core Apple Swift
+Feb 10, 2025 16:18:36.812 [281473222688248] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 55
+Feb 10, 2025 16:18:36.812 [281473256431672] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 10, 2025 16:18:36.815 [281473256431672] INFO - SQLITE3:0xffff997563a8, 283, recovered 351 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Feb 10, 2025 16:18:36.877 [281473256431672] DEBUG - Matcher: found 0 auxiliary files for Invincible (2021)

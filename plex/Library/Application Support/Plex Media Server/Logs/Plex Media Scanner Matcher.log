@@ -1,0 +1,6 @@
+Feb 11, 2025 04:55:31.239 [140573541841664] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Feb 11, 2025 04:55:31.240 [140573541841664] INFO - Linux version: 6.1.0-31-amd64, language: en-US
+Feb 11, 2025 04:55:31.240 [140573541841664] INFO - Processor: 32-core Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Feb 11, 2025 04:55:31.240 [140573541841664] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 1
+Feb 11, 2025 04:55:31.240 [140573542342400] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 04:55:31.397 [140573542342400] DEBUG - Matcher: found 0 auxiliary files for Bluey (2018)

@@ -1,0 +1,29 @@
+[2025-03-01 02:00:00.013 +00:00] [INF] [87] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2025-03-01 02:00:01.004 +00:00] [INF] [60] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2025-03-02 02:00:00.000 +00:00, which is 23:59:58.9953305 from now.
+[2025-03-01 03:00:00.005 +00:00] [INF] [65] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2025-03-01 03:00:01.001 +00:00] [INF] [72] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2025-03-02 03:00:00.000 +00:00, which is 23:59:58.9986178 from now.
+[2025-03-01 10:19:28.525 +00:00] [INF] [31] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tvshows"
+[2025-03-01 10:19:28.525 +00:00] [INF] [31] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2025-03-01 10:19:28.525 +00:00] [INF] [31] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2025-03-01 10:19:28.526 +00:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2025-03-01 10:19:28.585 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-03-01 10:19:28.591 +00:00] [WRN] [48] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2025-03-01 10:19:38.836 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 10 seconds
+[2025-03-01 10:19:38.896 +00:00] [INF] [34] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/tvshows"
+[2025-03-01 10:19:38.897 +00:00] [INF] [79] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/movies"
+[2025-03-01 14:55:38.355 +00:00] [INF] [34] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Elijah". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-03-01 14:55:38.429 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Swiftfin iPadOS" "1.2" playing "Scooby-Doo". Stopped at "0" ms
+[2025-03-01 14:56:29.108 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Swiftfin iPadOS" "1.2" playing "Scooby-Doo". Stopped at "5194000" ms
+[2025-03-01 14:56:29.226 +00:00] [INF] [34] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Swiftfin iPadOS" "1.2" playing "Scooby-Doo". Stopped at "5194000" ms
+[2025-03-01 14:57:19.973 +00:00] [INF] [86] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "Elijah". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2025-03-01 14:57:20.023 +00:00] [INF] [86] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Swiftfin iPadOS" "1.2" playing "My Neighbor Totoro". Stopped at "0" ms
+[2025-03-01 14:57:24.154 +00:00] [INF] [8] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Swiftfin iPadOS" "1.2" playing "My Neighbor Totoro". Stopped at "0" ms
+[2025-03-01 21:12:18.943 +00:00] [INF] [48] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2025-03-01 21:12:18.956 +00:00] [INF] [78] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2025-03-01 21:12:18.965 +00:00] [INF] [80] Main: Running query planner optimizations in the database... This might take a while
+[2025-03-01 21:12:18.986 +00:00] [INF] [65] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/tvshows"
+[2025-03-01 21:12:18.986 +00:00] [INF] [65] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/movies"
+[2025-03-01 21:12:18.992 +00:00] [INF] [80] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2025-03-01 21:12:18.992 +00:00] [INF] [80] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2025-03-01 21:12:18.992 +00:00] [INF] [80] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2025-03-01 21:12:18.993 +00:00] [INF] [80] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"

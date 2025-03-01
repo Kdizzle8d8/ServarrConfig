@@ -1,0 +1,151 @@
+Feb 11, 2025 02:06:19.835 [281473318776312] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) aarch64 - build: linux-aarch64 - GMT 00:00
+Feb 11, 2025 02:06:19.835 [281473318776312] INFO - Linux version: 6.10.14-linuxkit, language: en-US
+Feb 11, 2025 02:06:19.835 [281473318776312] INFO - Processor: 8-core Apple Swift
+Feb 11, 2025 02:06:19.835 [281473318776312] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 69 --log-file-suffix  Deep Analysis
+Feb 11, 2025 02:06:19.834 [281473367666744] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 02:06:19.836 [281473367666744] INFO - SQLITE3:0xffffa01563a8, 283, recovered 244 frames from WAL file /config/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db-wal
+Feb 11, 2025 02:06:19.896 [281473367666744] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 3/Invincible.2021.S03E01.1080p.WEB.H264-SuccessfulCrab[TGx].mkv"
+Feb 11, 2025 02:06:19.896 [281473367666744] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 3/Invincible.2021.S03E01.1080p.WEB.H264-SuccessfulCrab[TGx].mkv' for reading
+Feb 11, 2025 02:06:19.896 [281473367666744] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 02:06:19.897 [281473367666744] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4385
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4451
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4506
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4573
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4633
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4705
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4778
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4847
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4907
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 4966
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5036
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5097
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5157
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5226
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5286
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5354
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5414
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5473
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5536
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5600
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5661
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5723
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5783
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5858
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5917
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 5980
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6040
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6104
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6178
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6250
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6311
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Unknown entry 0x22B59D at pos. 6369
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:3 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:4 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:5 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:6 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:7 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:8 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:9 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:10 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:11 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:12 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:13 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:14 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:15 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:16 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:17 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:18 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:19 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:20 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:21 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:22 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:23 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:24 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:25 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:26 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:27 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:28 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:29 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:30 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - st:31 removing common factor 1000000 from timebase
+Feb 11, 2025 02:06:19.898 [281473367666744] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 8085 bytes read:41089 seeks:2 nb_streams:32
+Feb 11, 2025 02:06:19.899 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Feb 11, 2025 02:06:19.899 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Feb 11, 2025 02:06:19.900 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Feb 11, 2025 02:06:19.900 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Feb 11, 2025 02:06:19.900 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Feb 11, 2025 02:06:19.900 [281473367666744] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Feb 11, 2025 02:06:19.902 [281473367666744] DEBUG - [FFMPEG] - no picture 
+Feb 11, 2025 02:06:19.904 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Feb 11, 2025 02:06:19.905 [281473367666744] DEBUG - [FFMPEG] - no picture 
+Feb 11, 2025 02:06:19.906 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Feb 11, 2025 02:06:19.908 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Feb 11, 2025 02:06:19.911 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Feb 11, 2025 02:06:19.913 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Feb 11, 2025 02:06:19.914 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Feb 11, 2025 02:06:19.914 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Feb 11, 2025 02:06:19.915 [281473367666744] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Feb 11, 2025 02:06:19.916 [281473367666744] DEBUG - [FFMPEG] - All info found
+Feb 11, 2025 02:06:19.916 [281473367666744] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 66265 bytes read:106625 seeks:2 frames:25
+Feb 11, 2025 02:06:20.034 [281473367666744] DEBUG - Deep Analysis: Read 10000 packets at 155.364000
+Feb 11, 2025 02:06:20.131 [281473367666744] DEBUG - Deep Analysis: Read 20000 packets at 320.654000
+Feb 11, 2025 02:06:20.220 [281473367666744] DEBUG - Deep Analysis: Read 30000 packets at 475.584000
+Feb 11, 2025 02:06:20.449 [281473367666744] DEBUG - Deep Analysis: Read 40000 packets at 631.798000
+Feb 11, 2025 02:06:20.588 [281473367666744] DEBUG - Deep Analysis: Read 50000 packets at 787.808000
+Feb 11, 2025 02:06:20.712 [281473367666744] DEBUG - Deep Analysis: Read 60000 packets at 941.524000
+Feb 11, 2025 02:06:20.799 [281473367666744] DEBUG - Deep Analysis: Read 70000 packets at 1097.346000
+Feb 11, 2025 02:06:20.871 [281473367666744] DEBUG - Deep Analysis: Read 80000 packets at 1251.250000
+Feb 11, 2025 02:06:20.938 [281473367666744] DEBUG - Deep Analysis: Read 90000 packets at 1408.449000
+Feb 11, 2025 02:06:21.010 [281473367666744] DEBUG - Deep Analysis: Read 100000 packets at 1565.647000
+Feb 11, 2025 02:06:21.139 [281473367666744] DEBUG - Deep Analysis: Read 110000 packets at 1716.340000
+Feb 11, 2025 02:06:21.236 [281473367666744] DEBUG - Deep Analysis: Read 120000 packets at 1878.336000
+Feb 11, 2025 02:06:21.329 [281473367666744] DEBUG - Deep Analysis: Read 130000 packets at 2040.830000
+Feb 11, 2025 02:06:21.441 [281473367666744] DEBUG - Deep Analysis: Read 140000 packets at 2208.415000
+Feb 11, 2025 02:06:21.571 [281473367666744] DEBUG - Deep Analysis: Read 150000 packets at 2379.460000
+Feb 11, 2025 02:06:21.649 [281473367666744] DEBUG - Deep Analysis: Read 160000 packets at 2533.406000
+Feb 11, 2025 02:06:21.699 [281473367666744] DEBUG - Deep Analysis: Read 170000 packets at 2688.384000
+Feb 11, 2025 02:06:21.731 [281473367666744] DEBUG - Deep Analysis: Read 180000 packets at 2859.520000
+Feb 11, 2025 02:06:21.739 [281473367666744] DEBUG - Deep Analysis: Sorting packets
+Feb 11, 2025 02:06:21.742 [281473367666744] DEBUG - Deep Analysis: Performing file bitrate analysis
+Feb 11, 2025 02:06:21.750 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Feb 11, 2025 02:06:21.756 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Feb 11, 2025 02:06:21.761 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 2
+Feb 11, 2025 02:06:21.761 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 3
+Feb 11, 2025 02:06:21.761 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 4
+Feb 11, 2025 02:06:21.761 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 5
+Feb 11, 2025 02:06:21.761 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 6
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 7
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 8
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 9
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 10
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 11
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 12
+Feb 11, 2025 02:06:21.762 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 13
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 14
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 15
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 16
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 17
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 18
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 19
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 20
+Feb 11, 2025 02:06:21.763 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 21
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 22
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 23
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 24
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 25
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 26
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 27
+Feb 11, 2025 02:06:21.764 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 28
+Feb 11, 2025 02:06:21.765 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 29
+Feb 11, 2025 02:06:21.765 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 30
+Feb 11, 2025 02:06:21.765 [281473367666744] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 31
+Feb 11, 2025 02:06:21.766 [281473367666744] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Feb 11, 2025 02:06:21.767 [281473367666744] DEBUG - Deep Analysis: Saving bitrate analysis
+Feb 11, 2025 02:06:21.767 [281473367666744] DEBUG - Updating part with ID=63 [/tv/Invincible (2021)/Season 3/Invincible.2021.S03E01.1080p.WEB.H264-SuccessfulCrab[TGx].mkv]
+Feb 11, 2025 02:06:21.768 [281473367666744] DEBUG - [MI] Closing input file: "/tv/Invincible (2021)/Season 3/Invincible.2021.S03E01.1080p.WEB.H264-SuccessfulCrab[TGx].mkv"
+Feb 11, 2025 02:06:21.769 [281473367666744] DEBUG - Updating media item 63, size=1502969281, metadata_item_id=69
+Feb 11, 2025 02:06:21.769 [281473367666744] DEBUG - Updating part with ID=63 [/tv/Invincible (2021)/Season 3/Invincible.2021.S03E01.1080p.WEB.H264-SuccessfulCrab[TGx].mkv]

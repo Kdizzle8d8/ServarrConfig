@@ -1,0 +1,75 @@
+Feb 11, 2025 04:15:29.145 [140460369685248] INFO - Plex Media Scanner v1.41.3.9314-a0bfb8370 - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 00:00
+Feb 11, 2025 04:15:29.145 [140460369685248] INFO - Linux version: 6.1.0-31-amd64, language: en-US
+Feb 11, 2025 04:15:29.146 [140460369685248] INFO - Processor: 32-core Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+Feb 11, 2025 04:15:29.146 [140460369685248] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --item 50,47,25,31,5,59,37,7,61,34 --log-file-suffix  Analysis
+Feb 11, 2025 04:15:29.145 [140460370185984] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Feb 11, 2025 04:15:29.342 [140460370185984] DEBUG - Analyzing media parts for item 50 (Teasing): 48
+Feb 11, 2025 04:15:29.342 [140460370185984] DEBUG - [ID 48] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E48 - Teasing (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.342 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E48 - Teasing (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.342 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E48 - Teasing (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.342 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.343 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E48 - Teasing (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E48 - Teasing (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.343 [140460370185984] ERROR - Failed to successfully analyze part 48.
+Feb 11, 2025 04:15:29.356 [140460370185984] DEBUG - Analyzing media parts for item 47 (Kids): 45
+Feb 11, 2025 04:15:29.356 [140460370185984] DEBUG - [ID 45] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E45 - Kids (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.356 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E45 - Kids (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.356 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E45 - Kids (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.356 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.356 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E45 - Kids (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E45 - Kids (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.356 [140460370185984] ERROR - Failed to successfully analyze part 45.
+Feb 11, 2025 04:15:29.368 [140460370185984] DEBUG - Analyzing media parts for item 25 (Shops): 23
+Feb 11, 2025 04:15:29.368 [140460370185984] DEBUG - [ID 23] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E23 - Shops (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.369 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E23 - Shops (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.369 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E23 - Shops (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.369 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.369 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E23 - Shops (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E23 - Shops (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.369 [140460370185984] ERROR - Failed to successfully analyze part 23.
+Feb 11, 2025 04:15:29.381 [140460370185984] DEBUG - Analyzing media parts for item 31 (The Creek): 29
+Feb 11, 2025 04:15:29.381 [140460370185984] DEBUG - [ID 29] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E29 - The Creek (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.382 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E29 - The Creek (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.382 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E29 - The Creek (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.382 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.382 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E29 - The Creek (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E29 - The Creek (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.382 [140460370185984] ERROR - Failed to successfully analyze part 29.
+Feb 11, 2025 04:15:29.395 [140460370185984] DEBUG - Analyzing media parts for item 5 (Keepy Uppy): 3
+Feb 11, 2025 04:15:29.395 [140460370185984] DEBUG - [ID 3] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E03 - Keepy Uppy (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.395 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E03 - Keepy Uppy (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.395 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E03 - Keepy Uppy (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.395 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.396 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E03 - Keepy Uppy (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E03 - Keepy Uppy (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.396 [140460370185984] ERROR - Failed to successfully analyze part 3.
+Feb 11, 2025 04:15:29.412 [140460370185984] DEBUG - Analyzing media parts for item 59 (WHO YOU CALLING UGLY?): 55
+Feb 11, 2025 04:15:29.412 [140460370185984] DEBUG - [ID 55] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E03.Who.You.Calling.Ugly.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.412 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E03.Who.You.Calling.Ugly.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.412 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E03.Who.You.Calling.Ugly.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.412 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.412 [140460370185984] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E03.Who.You.Calling.Ugly.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E03.Who.You.Calling.Ugly.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.412 [140460370185984] ERROR - Failed to successfully analyze part 55.
+Feb 11, 2025 04:15:29.431 [140460370185984] DEBUG - Analyzing media parts for item 37 (Zoo): 35
+Feb 11, 2025 04:15:29.431 [140460370185984] DEBUG - [ID 35] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E35 - Zoo (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.431 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E35 - Zoo (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.431 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E35 - Zoo (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.431 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.431 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E35 - Zoo (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E35 - Zoo (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.431 [140460370185984] ERROR - Failed to successfully analyze part 35.
+Feb 11, 2025 04:15:29.443 [140460370185984] DEBUG - Analyzing media parts for item 7 (Shadowlands): 5
+Feb 11, 2025 04:15:29.443 [140460370185984] DEBUG - [ID 5] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E05 - Shadowlands (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.443 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E05 - Shadowlands (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.443 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E05 - Shadowlands (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.443 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.443 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E05 - Shadowlands (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E05 - Shadowlands (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.443 [140460370185984] ERROR - Failed to successfully analyze part 5.
+Feb 11, 2025 04:15:29.459 [140460370185984] DEBUG - Analyzing media parts for item 61 (THAT ACTUALLY HURT): 57
+Feb 11, 2025 04:15:29.460 [140460370185984] DEBUG - [ID 57] Media part analysis: /tv/Invincible (2021)/Season 1/Invincible.2021.S01E05.That.Actually.Hurt.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv
+Feb 11, 2025 04:15:29.460 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Invincible (2021)/Season 1/Invincible.2021.S01E05.That.Actually.Hurt.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv"
+Feb 11, 2025 04:15:29.460 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E05.That.Actually.Hurt.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' for reading
+Feb 11, 2025 04:15:29.460 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.460 [140460370185984] ERROR - Exception analyzing media file '/tv/Invincible (2021)/Season 1/Invincible.2021.S01E05.That.Actually.Hurt.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv' (Could not parse /tv/Invincible (2021)/Season 1/Invincible.2021.S01E05.That.Actually.Hurt.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[TGx].mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.460 [140460370185984] ERROR - Failed to successfully analyze part 57.
+Feb 11, 2025 04:15:29.480 [140460370185984] DEBUG - Analyzing media parts for item 34 (Bumpy and the Wise Old Wolfhound): 32
+Feb 11, 2025 04:15:29.480 [140460370185984] DEBUG - [ID 32] Media part analysis: /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E32 - Bumpy and the Wise Old Wolfhound (1080p DSNP WEB-DL x265 Garshasp).mkv
+Feb 11, 2025 04:15:29.480 [140460370185984] DEBUG - [MI] Opening input file: "/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E32 - Bumpy and the Wise Old Wolfhound (1080p DSNP WEB-DL x265 Garshasp).mkv"
+Feb 11, 2025 04:15:29.480 [140460370185984] DEBUG - [FFMPEG] - Opening '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E32 - Bumpy and the Wise Old Wolfhound (1080p DSNP WEB-DL x265 Garshasp).mkv' for reading
+Feb 11, 2025 04:15:29.480 [140460370185984] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Feb 11, 2025 04:15:29.480 [140460370185984] ERROR - Exception analyzing media file '/tv/Bluey (2018)/Season 1/Bluey (2018) - S01E32 - Bumpy and the Wise Old Wolfhound (1080p DSNP WEB-DL x265 Garshasp).mkv' (Could not parse /tv/Bluey (2018)/Season 1/Bluey (2018) - S01E32 - Bumpy and the Wise Old Wolfhound (1080p DSNP WEB-DL x265 Garshasp).mkv (error=-2): No such file or directory)
+Feb 11, 2025 04:15:29.480 [140460370185984] ERROR - Failed to successfully analyze part 32.
